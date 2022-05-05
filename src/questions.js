@@ -43,7 +43,7 @@ const managerQuestions = [
     {
         type: 'input',
         name: 'office',
-        message: "What is the manager's office number?"
+        message: "What is the manager's number?"
     }
 ];
 
@@ -78,7 +78,7 @@ const teamQuestions = [
         name: 'id',
         message: "Enter employee's id?",
         when: ({ addEmployees }) => {
-            if (addEmployees === "I'm done building my team") {
+            if (addEmployees === "I'm done") {
                 return false;
             }
             return true;
@@ -97,7 +97,7 @@ const teamQuestions = [
         name: 'email',
         message: "Enter employee's email address?",
         when: ({ addEmployees }) => {
-            if (addEmployees === "I'm done building my team") {
+            if (addEmployees === "I'm done") {
                 return false;
             }
             return true;
@@ -142,7 +142,7 @@ const promptEmployeeData = teamData => {
 
     return inquirer.prompt(teamQuestions)
         .then(employeeData => {
-            if (employeeData.addEmployees === "I'm done building my team") {
+            if (employeeData.addEmployees === "I'm done") {
                 return teamData;
             }
             teamData.employees.push(employeeData);

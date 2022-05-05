@@ -1,4 +1,3 @@
-// render manager card
 const renderManagerCard = manager => {
     return `
         <div class="col-md-4 mt-2">

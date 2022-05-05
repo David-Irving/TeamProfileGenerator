@@ -42,3 +42,5 @@
  * Repository contains a high-quality readme with description and a link to a walkthrough video.
 ### Repository Link
  * https://github.com/David-Irving/TeamProfileGenerator
+
+### Preview of Application
