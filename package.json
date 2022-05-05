@@ -1,0 +1,22 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-Irving/TeamProfileGenerator.git"
+  },
+  "author": "David Irving",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/David-Irving/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/David-Irving/TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
